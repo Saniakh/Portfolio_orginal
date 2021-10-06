@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Monoton&display=swap');
+
+*{
+    margin: 0px; 
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ } 
+ 
+
+.image1{
+width: 100%;
+object-fit: cover;
+
+}
+
+
+
+
+/*den hvide 'border' øverst*/
+nav{
+    width: 100%;
+    height: 55px;
+    line-height: 50px;
+    padding: 0px 100px;
+    position: fixed;
+    
+   
+}
+
+
+/*Ændrer KUN logo, som er 'SK'*/
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -9px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+/*Teksten i midten, multimedie
+portfolio*/
+p.a{
+    font-size: 5rem;
+    margin: 90px;
+    margin-left: 0px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 70px;
+    padding: 10px 2px;
+    color: rgb(0, 0, 0);
+    font-family:inherit
+
+}
+
+
+/*skifter placering på SK logo*/
+nav ul{
+    float:right;
+}
+
+/*skifter placering på 'linksene 
+hel oppe i toppen højre hjørne*/
+nav ul li{
+    display: inline-block;
+    list-style-type:none;
+  }
+
+
+  /*ændrer på afstanden mellem linksene
+  samt farve mv.*/
+nav ul li a{
+   color: rgb(0, 0, 0);
+   text-decoration: none; 
+   font-size: 18px;
+   text-transform: uppercase;
+   padding: 30px;
+}
+
+
+
+
+
+/*DETTE HØRE TIL 'OM MIG'*/
+p{
+position: absolute;
+left: 400px;
+top: 200px;
+font-size: 15px;
+letter-spacing: 4px;
+}
+
+/*OM MIG overskriften*/
+h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 670px;
+    top: 200px;
+
+}
+
+
+.baggrund2{
+    background-color: rgba(56, 99, 90, 0.384);
+}
+
+
+
+.image2{
+max-width: 12%;
+position: relative;
+left: 150px;
+bottom: -240px;
+opacity: 0.9;
+border-radius: 50%;
+
+}
+
+
+/*baggrundsfarven ved 'kontakt'*/
+.baggrund3{
+background-color: rgb(255, 255, 255);
+}
+
+
+.kontaktmig{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+
+.kontaktmig {
+position: relative;
+right: -520px;
+bottom: -100px;
+
+}
+
+.border{
+    width: 100px;
+    height: 9px;
+    background:rgba(36, 34, 34, 0.74);
+    margin: 80px auto;
+    position: relative;
+    bottom: -30px;
+}
+
+.kontakt-formular{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.kontakt-formular-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background:rgba(47, 110, 110, 0.425);
+    padding: 10px 10px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.kontakt-formular-text:focus{
+    box-shadow: 0 0 10px 4px #55555552;
+}
+
+textarea.kontakt-formular-text{
+    resize: none;
+    height: 120px;
+}
+
+.kontakt-formular-btn{
+    float: right;
+    padding: 3px 50px;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+
+
+/*Projekter - begge billeder*/ 
+.uredigeret{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    position: relative;
+    bottom: -180px;
+    left: -500px;   
+}
+
+.redigeret{
+    width: 200px;
+    position: relative;
+    bottom: -15px;
+    right: -1000px;
+}
+
+.overskrift{
+    font-size: 65px;
+    position: relative;
+    bottom: -120px;
+    right: -530px;
+    letter-spacing: 8px;
+    color: rgba(41, 95, 83, 0.815);
+}
+
+p.brødtekst{
+    font-size: 14px;
+    position: relative;
+    top: -350px;
+    left: 450px;
+
+} 
+
+p.oprindeligb{
+position: relative;
+right: 10px;
+top: -415px;
+left: 72px;
+
+}
+ 
+p.redigeretb{
+    position: relative;
+    left: 1000px;
+    top: -325px;
+    
+   
+}
+
+.baggrund4{
+    background-color: rgba(56, 99, 90, 0.452);
+}
+
+
+
+
